@@ -5,6 +5,7 @@
     <Collab/>
     <Powerful/>
     <Started/>
+    <Footer/>
   </div>
 </template>
 
@@ -15,6 +16,7 @@ import Boost from '@/components/Boost.vue'
 import Collab from '@/components/Collab.vue'
 import Powerful from '@/components/Powerful.vue'
 import Started from '@/components/getStarted.vue'
+import Footer from '@/components/Footer.vue'
 
 export default {
   name: 'Home',
@@ -23,7 +25,8 @@ export default {
     Boost,
     Collab,
     Powerful,
-    Started
+    Started,
+    Footer
   }
 }
 </script>
